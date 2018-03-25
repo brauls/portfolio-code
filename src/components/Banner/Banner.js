@@ -8,7 +8,7 @@ const Banner = () => (
         
         <p>Full stack developer</p>
         <p>Engineer (M.Sc.)</p>
-        <p>Agil team player</p>
+        <p>Agile team player</p>
       </div>
     </div>
   )
