@@ -3,11 +3,11 @@ import './Banner.css';
 
 const Banner = () => (
     <div className="banner-container">
-      <div>
+      <div className="banner-description">
         <h1 className="headline">Martin Lux</h1>
         
         <p>Full stack developer</p>
-        <p>Engineer</p>
+        <p>Engineer (M.Sc.)</p>
         <p>Agil team player</p>
       </div>
     </div>

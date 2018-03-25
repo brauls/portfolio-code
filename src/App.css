@@ -8,6 +8,9 @@
 }
 
 .App-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   background-color: rgb(49, 50, 51);
@@ -16,8 +19,8 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.0em;
+.App-main {
+  margin-top: 70px;
 }
 
 .App-intro {
