@@ -1,14 +1,18 @@
 import React from 'react';
 import './Banner.css';
 
-const Banner = () => (
+const Banner = ({
+  name,
+  favovriteSkill,
+  education,
+  socialSkill
+}) => (
     <div className="banner-container">
       <div className="banner-description">
-        <h1 className="headline">Martin Lux</h1>
-        
-        <p>Full stack developer</p>
-        <p>Engineer (M.Sc.)</p>
-        <p>Agile team player</p>
+        <h1 className="headline">{name}</h1>
+        <p>{favovriteSkill}</p>
+        <p>{education}</p>
+        <p>{socialSkill}</p>
       </div>
     </div>
   )
