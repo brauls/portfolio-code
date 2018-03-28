@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Banner.css';
 
 const Banner = ({
@@ -16,5 +17,12 @@ const Banner = ({
       </div>
     </div>
   )
+
+Banner.propTypes = {
+  name: PropTypes.string,
+  favovriteSkill: PropTypes.string,
+  education: PropTypes.string,
+  socialSkill: PropTypes.string
+}; 
 
 export default Banner;
