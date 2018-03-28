@@ -16,7 +16,13 @@ class App extends Component {
             socialSkill="Agile team player"
           />
           <p className="App-intro">
-            still tons of work to do...
+            still tons of work to do... take a look on my <a 
+              href='storybook/index.html' 
+              target='_blank' 
+              rel="noopener noreferrer"
+            >
+             Storybook
+            </a>
           </p>  
         </div>
       </div>
