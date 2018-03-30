@@ -1,0 +1,27 @@
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-description {
+    text-align: center;
+}
+
+.skill-icon-disciplin {
+    width: 90px;
+    height: 90px;
+}
+
+.skill-headline-disciplin {
+    color: #2288CC;
+}
+
+.skill-description-text {
+    padding: 5px;
+}
+
+.skill-icon {
+    width: 100%;
+    height: 100%;
+}
