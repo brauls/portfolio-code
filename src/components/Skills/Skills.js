@@ -9,6 +9,7 @@ const Skills = ({
 }) => {
     const skillComponents = skillSet.map(skill => (
         <Skill
+            key={skill.disciplin}
             disciplin={skill.disciplin}
             description={skill.description}
         />
