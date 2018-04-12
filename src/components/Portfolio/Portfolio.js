@@ -35,7 +35,13 @@ Portfolio.propTypes = {
   name: PropTypes.string,
   favovriteSkill: PropTypes.string,
   education: PropTypes.string,
-  socialSkill: PropTypes.string
+  socialSkill: PropTypes.string,
+  skillSet: PropTypes.arrayOf(
+    PropTypes.shape({
+      disciplin: PropTypes.string,
+      description: PropTypes.string
+    })
+  )
 }; 
 
 export default Portfolio;

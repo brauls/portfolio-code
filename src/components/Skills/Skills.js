@@ -22,7 +22,12 @@ const Skills = ({
 }
 
 Skills.propTypes = {
-    skillSet: PropTypes.array.isRequired,
+    skillSet: PropTypes.arrayOf(
+        PropTypes.shape({
+            disciplin: PropTypes.string,
+            description: PropTypes.string
+        })
+    ),
 }; 
 
 export default Skills;

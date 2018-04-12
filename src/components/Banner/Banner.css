@@ -18,8 +18,20 @@
     font-size: 2em;
 }
 
+/* 5k */
+@media screen and (min-width: 2100px){
+    .banner-container{
+        height: 1300px;
+    }
+    .banner-description {
+        top: 250px;
+        left: 1550px;
+        font-size: 2.6em;
+    }
+}
+
 /* Full HD */
-@media screen and (min-width: 1900px){
+@media screen and (min-width: 1800px) and (max-width: 2000px){
     .banner-description {
         top: 180px;
         left: 1200px;
@@ -28,7 +40,7 @@
 }
 
 /* Retina display */
-@media screen and (min-width: 1400px) and (max-width: 1900px){
+@media screen and (min-width: 1400px) and (max-width: 1800px){
     .banner-description {
         top: 170px;
         left: 1100px;

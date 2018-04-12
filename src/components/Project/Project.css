@@ -1,0 +1,23 @@
+.project-links {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+.project-links:hover {
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; 
+    background-color: rgb(49, 50, 51);
+}
+
+.project-container:hover {
+    transform: scale(1.1); 
+}
