@@ -6,6 +6,7 @@ import Banner from '../Banner/Banner'
 import Header from '../Header/Header'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
+import Projects from '../Projects/Projects'
 
 const Portfolio = ({
   name,
@@ -26,6 +27,7 @@ const Portfolio = ({
       <Skills
         skillSet={skillSet}
       />
+      <Projects />
       <Contact />
     </div>
   </div>

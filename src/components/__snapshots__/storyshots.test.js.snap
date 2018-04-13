@@ -1341,6 +1341,81 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
           </div>
         </div>
         <div
+          className="projects-container"
+        >
+          <h1
+            className="projects-headline"
+          >
+            Projects
+          </h1>
+          <div
+            className="projects-overview-container"
+          >
+            <a
+              className="project-links"
+              href="https://openindy.github.io/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="project-container"
+              >
+                <div
+                  style={
+                    Object {
+                      "backgroundImage": "url(openindy.png)",
+                      "backgroundRepeat": "no-repeat",
+                      "backgroundSize": "cover",
+                      "height": "250px",
+                      "width": "250px",
+                    }
+                  }
+                />
+                <div
+                  className="project-description"
+                >
+                  <div>
+                    <h1>
+                      OpenIndy
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              className="project-links"
+              href="https://500px.com/martinlulu"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                className="project-container"
+              >
+                <div
+                  style={
+                    Object {
+                      "backgroundImage": "url(photography.png)",
+                      "backgroundRepeat": "no-repeat",
+                      "backgroundSize": "cover",
+                      "height": "250px",
+                      "width": "250px",
+                    }
+                  }
+                />
+                <div
+                  className="project-description"
+                >
+                  <div>
+                    <h1>
+                      Photography
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
           className="contact-container"
         >
           <h2
@@ -2199,13 +2274,25 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
       <div
         className="project-container"
       >
-        <div>
-          <h1>
-            OpenIndy
-          </h1>
-          <p>
-            Open source software solution for industrial measurement (metrology, laser tracker, quality control)
-          </p>
+        <div
+          style={
+            Object {
+              "backgroundImage": "url(test_image.svg)",
+              "backgroundRepeat": "no-repeat",
+              "backgroundSize": "cover",
+              "height": "250px",
+              "width": "250px",
+            }
+          }
+        />
+        <div
+          className="project-description"
+        >
+          <div>
+            <h1>
+              OpenIndy
+            </h1>
+          </div>
         </div>
       </div>
     </a>
@@ -2421,7 +2508,7 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
                   <span
                     style={Object {}}
                   >
-                    description
+                    image
                   </span>
                   <span>
                     =
@@ -2437,7 +2524,7 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
                         }
                       >
                         "
-                        Open source software solution for industrial measu…
+                        test_image.svg
                         "
                       </span>
                     </span>
@@ -2571,31 +2658,6 @@ exports[`Storyshots Project Example - Description of OpenIndy Project) 1`] = `
                   <td
                     className="css-1ygfcef"
                   >
-                    description
-                  </td>
-                  <td
-                    className="css-1ygfcef"
-                  >
-                    <span />
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    yes
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    -
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  />
-                </tr>
-                <tr>
-                  <td
-                    className="css-1ygfcef"
-                  >
                     link
                   </td>
                   <td
@@ -2646,13 +2708,25 @@ exports[`Storyshots Project Project component to describe a software project) 1`
       <div
         className="project-container"
       >
-        <div>
-          <h1>
-            Awesome WebApp
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <div
+          style={
+            Object {
+              "backgroundImage": "url(test_image.svg)",
+              "backgroundRepeat": "no-repeat",
+              "backgroundSize": "cover",
+              "height": "250px",
+              "width": "250px",
+            }
+          }
+        />
+        <div
+          className="project-description"
+        >
+          <div>
+            <h1>
+              Awesome WebApp
+            </h1>
+          </div>
         </div>
       </div>
     </a>
@@ -2868,7 +2942,7 @@ exports[`Storyshots Project Project component to describe a software project) 1`
                   <span
                     style={Object {}}
                   >
-                    description
+                    image
                   </span>
                   <span>
                     =
@@ -2884,7 +2958,7 @@ exports[`Storyshots Project Project component to describe a software project) 1`
                         }
                       >
                         "
-                        Lorem ipsum dolor sit amet, consectetur adipisici …
+                        test_image.svg
                         "
                       </span>
                     </span>
@@ -3018,31 +3092,6 @@ exports[`Storyshots Project Project component to describe a software project) 1`
                   <td
                     className="css-1ygfcef"
                   >
-                    description
-                  </td>
-                  <td
-                    className="css-1ygfcef"
-                  >
-                    <span />
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    yes
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  >
-                    -
-                  </td>
-                  <td
-                    className="css-d52hbj"
-                  />
-                </tr>
-                <tr>
-                  <td
-                    className="css-1ygfcef"
-                  >
                     link
                   </td>
                   <td
@@ -3066,6 +3115,319 @@ exports[`Storyshots Project Project component to describe a software project) 1`
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Projects Overview of my projects 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="projects-container"
+    >
+      <h1
+        className="projects-headline"
+      >
+        Projects
+      </h1>
+      <div
+        className="projects-overview-container"
+      >
+        <a
+          className="project-links"
+          href="https://openindy.github.io/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            className="project-container"
+          >
+            <div
+              style={
+                Object {
+                  "backgroundImage": "url(openindy.png)",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "height": "250px",
+                  "width": "250px",
+                }
+              }
+            />
+            <div
+              className="project-description"
+            >
+              <div>
+                <h1>
+                  OpenIndy
+                </h1>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          className="project-links"
+          href="https://500px.com/martinlulu"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            className="project-container"
+          >
+            <div
+              style={
+                Object {
+                  "backgroundImage": "url(photography.png)",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "height": "250px",
+                  "width": "250px",
+                }
+              }
+            />
+            <div
+              className="project-description"
+            >
+              <div>
+                <h1>
+                  Photography
+                </h1>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#28c",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#28c",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div
+      style={undefined}
+    >
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Projects
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            Overview of my projects
+          </h2>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "WebkitFontSmoothing": "antialiased",
+                "color": "#444",
+                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+                "fontSize": "15px",
+              }
+            }
+          >
+            common info
+          </div>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "backgroundColor": "#fafafa",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "paddingLeft": 18,
+                  "paddingRight": 3,
+                }
+              }
+            >
+              <span
+                style={
+                  Object {
+                    "color": "#777",
+                  }
+                }
+              >
+                &lt;
+                Projects
+              </span>
+              <span />
+              <span
+                style={
+                  Object {
+                    "color": "#777",
+                  }
+                }
+              >
+                /&gt;
+              </span>
+            </div>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              Projects
+              " Component
+            </h2>
+            <small>
+              No propTypes defined!
+            </small>
           </div>
         </div>
       </div>
