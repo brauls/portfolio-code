@@ -3,7 +3,6 @@ import './Projects.css';
 
 import Project from '../Project/Project'
 import OpenIndy from './images/openindy.png'
-import Photography from './images/photography.png'
 
 const Projects = () => (
     <div className="projects-container">
@@ -14,11 +13,7 @@ const Projects = () => (
                 link={'https://openindy.github.io/'}
                 image={OpenIndy}
             />
-            <Project
-                name={'Photography'}
-                link={'https://500px.com/martinlulu'}
-                image={Photography}
-            />
+            {/* add some more projects here */}
         </div>
     </div>
 )

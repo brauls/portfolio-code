@@ -7,7 +7,7 @@ const Header = () => (
     <header className="app-header">
         <a 
             className="header-links" 
-            href='https://github.com/martiL' 
+            href='https://github.com/brauls' 
             target='_blank' 
             rel="noopener noreferrer"
         >

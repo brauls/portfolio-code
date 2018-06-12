@@ -1,7 +1,7 @@
 {
   "name": "portfolio-code",
   "version": "0.1.0",
-  "homepage": "https://martiL.github.io/portfolio-code",
+  "homepage": "https://brauls.github.io/portfolio-code",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",

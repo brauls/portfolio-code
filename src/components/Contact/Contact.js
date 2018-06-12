@@ -1,7 +1,6 @@
 import React from 'react';
 import './Contact.css';
 
-import Fa500px from 'react-icons/lib/fa/500px';
 import FaTwitter from 'react-icons/lib/fa/twitter';
 import GoMail from 'react-icons/lib/go/mail';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
@@ -12,22 +11,14 @@ const Contact = () => (
         <div className="contact-icons">
             <a 
                 className="contact-links" 
-                href='mailto:martiluax@gmail.com'
+                href='mailto:brauls101@gmail.com'
                 rel="noopener noreferrer"
             >
                 <GoMail className="contact-icon"/>
             </a>
             <a 
                 className="contact-links" 
-                href='https://500px.com/martinlulu' 
-                target='_blank' 
-                rel="noopener noreferrer"
-            >
-                <Fa500px  className="contact-icon"/>
-            </a>
-            <a 
-                className="contact-links" 
-                href='https://twitter.com/MartiiMacFly' 
+                href='https://twitter.com/brauls101' 
                 target='_blank' 
                 rel="noopener noreferrer"
             >
@@ -35,7 +26,7 @@ const Contact = () => (
             </a>
             <a 
                 className="contact-links" 
-                href='https://linkedin.com/in/martin-lux-278083161' 
+                href='https://de.linkedin.com/in/benedikt-rauls-97b140162' 
                 target='_blank' 
                 rel="noopener noreferrer"
             >

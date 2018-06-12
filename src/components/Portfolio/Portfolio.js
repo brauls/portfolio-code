@@ -19,10 +19,10 @@ const Portfolio = ({
     <Header />
     <div className="portfolio-main">
       <Banner 
-        name="Martin Lux"
-        favovriteSkill="Full stack developer"
-        education="Engineer (M.Sc.)"
-        socialSkill="Agile team player"
+        name={name}
+        favovriteSkill={favovriteSkill}
+        education={education}
+        socialSkill={socialSkill}
       />
       <Skills
         skillSet={skillSet}

@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
         <Portfolio 
-          name="Martin Lux"
+          name="Benedikt Rauls"
           favovriteSkill="Full stack developer"
           education="Engineer (M.Sc.)"
           socialSkill="Agile team player"
@@ -16,7 +16,7 @@ class App extends Component {
             },
             {
                 disciplin:"BACKEND",
-                description: "Node.js, Java Spring, MongoDB"
+                description: "Node.js, Java Spring, MongoDB, Python"
             },
             {
                 disciplin:"METHODOLOGIES",
