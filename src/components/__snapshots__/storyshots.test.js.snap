@@ -22,7 +22,7 @@ exports[`Storyshots Banner Banner with background image and description 1`] = `
         <h1
           className="headline"
         >
-          Martin Lux
+          Benedikt Rauls
         </h1>
         <p>
           Full stack developer
@@ -239,7 +239,7 @@ exports[`Storyshots Banner Banner with background image and description 1`] = `
                         }
                       >
                         "
-                        Martin Lux
+                        Benedikt Rauls
                         "
                       </span>
                     </span>
@@ -1176,7 +1176,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
             <h1
               className="headline"
             >
-              Martin Lux
+              Benedikt Rauls
             </h1>
             <p>
               Full stack developer
@@ -1662,7 +1662,7 @@ exports[`Storyshots Portfolio The whole portfolio website 1`] = `
                         }
                       >
                         "
-                        Martin Lux
+                        Benedikt Rauls
                         "
                       </span>
                     </span>

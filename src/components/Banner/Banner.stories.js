@@ -12,8 +12,8 @@ stories.addDecorator(withKnobs);
 
 stories
   .add('Banner with background image and description', () => (
-    <Banner 
-        name={text("name", "Martin Lux")}
+    <Banner
+        name={text("name", "Benedikt Rauls")}
         favovriteSkill={text("favovriteSkill", "Full stack developer")}
         education={text("education", "Engineer (M.Sc.)")}
         socialSkill={text("socialSkill", "Agile team player")}

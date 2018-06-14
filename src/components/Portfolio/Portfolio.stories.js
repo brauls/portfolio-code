@@ -12,8 +12,8 @@ stories.addDecorator(withKnobs);
 
 stories
   .add('The whole portfolio website', () => (
-    <Portfolio 
-        name={text("name", "Martin Lux")}
+    <Portfolio
+        name={text("name", "Benedikt Rauls")}
         favovriteSkill={text("favovriteSkill", "Full stack developer")}
         education={text("education", "Engineer (M.Sc.)")}
         socialSkill={text("socialSkill", "Agile team player")}
