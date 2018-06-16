@@ -12,7 +12,7 @@ class App extends Component {
           skillSet={[
             {
                 disciplin:"FRONTEND",
-                description: "HTML5, ES6, SASS, React, Redux, Storybook, Jest"
+                description: "HTML5, ES6, SASS, React, Redux, Storybook, Jest, Elm"
             },
             {
                 disciplin:"BACKEND",
